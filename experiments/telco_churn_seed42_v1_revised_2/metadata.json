@@ -1,0 +1,22 @@
+{
+  "created": "2026-02-09T23:36:13.037608",
+  "models": [
+    "logreg",
+    "dt",
+    "rf",
+    "lgb"
+  ],
+  "sklearn_version": "1.8.0",
+  "shap_version": "0.50.0",
+  "lightgbm_version": "4.6.0",
+  "dataset": "telco_churn",
+  "random_state": 42,
+  "cv": "StratifiedKFold(n_splits=3, shuffle=True, random_state=42)",
+  "shap_settings": {
+    "n_background": 100,
+    "n_samples": 200,
+    "n_perturb": 30,
+    "noise_level": 0.02
+  },
+  "refit_metric": "roc_auc"
+}
