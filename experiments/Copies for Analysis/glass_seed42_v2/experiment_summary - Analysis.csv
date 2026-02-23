@@ -1,0 +1,5 @@
+model,accuracy,f1_weighted,roc_auc,mean_stability,mean_sparsity,ranking_score
+rf,0.791,0.784,0.966,0.998,0.834,0.941
+lgb,0.651,0.644,0.946,0.989,0.823,0.926
+dt,0.744,0.727,0.862,0.991,0.913,0.907
+logreg,0.628,0.643,0.895,0.986,0.813,0.897
